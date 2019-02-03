@@ -1,0 +1,41 @@
+@import "variables";
+
+// Extra small devices (portrait phones, less than 576px)
+
+.footer {
+  width: $footer-width;
+  height: $footer-height-sm;
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid $gray;
+}
+
+.links {}
+
+.copyright {
+  span {
+    font-size: 14px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+  .footer {
+    height: $footer-height-md;
+    flex-direction: row;
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

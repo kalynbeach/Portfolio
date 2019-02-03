@@ -1,0 +1,52 @@
+{
+  "name": "kalyn-beach-portfolio",
+  "private": true,
+  "description": "Portfolio Website",
+  "version": "0.1.0",
+  "author": "Kalyn Beach",
+  "dependencies": {
+    "gatsby": "^2.0.107",
+    "gatsby-image": "^2.0.29",
+    "gatsby-plugin-manifest": "^2.0.16",
+    "gatsby-plugin-offline": "^2.0.22",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-plugin-sass": "^2.0.10",
+    "gatsby-plugin-sharp": "^2.0.19",
+    "gatsby-plugin-typography": "^2.2.7",
+    "gatsby-source-filesystem": "^2.0.19",
+    "gatsby-transformer-sharp": "^2.1.13",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.18",
+    "typography": "^0.16.18",
+    "typography-theme-st-annes": "^0.16.18",
+    "typography-theme-sutro": "^0.16.18"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-google": "^0.12.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "gatsby-plugin-eslint": "^2.0.4"
+  }
+}

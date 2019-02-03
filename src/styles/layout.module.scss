@@ -1,0 +1,93 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,400i,900');
+
+// Extra small devices (portrait phones, less than 576px)
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: $font-size;
+  line-height: $font-size;
+}
+
+a {
+  transition: 0.30s ease;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $gray !important;
+  font-family: 'Roboto Mono', monospace !important;
+  font-weight: 900 !important;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "nav"
+    "page"
+    "footer";
+  padding: 0 15px;
+  min-height: 100%;
+
+  .page {
+    grid-area: page;
+  }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+  .container {
+
+    .page {}
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+  .container {
+    grid-template-columns: $container-padding-column-sm 1fr 1fr 1fr $container-padding-column-sm;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      ". nav nav nav ."
+      ". page page page ."
+      ". footer footer footer .";
+    grid-gap: 10px;
+    padding: 0;
+
+    .page {}
+  }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+  .container {
+    grid-template-columns: $container-padding-column-lg 1fr 1fr 1fr $container-padding-column-lg;
+
+    .page {}
+  }
+
+}
