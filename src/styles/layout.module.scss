@@ -7,7 +7,7 @@ html,
 body {
   height: 100%;
   margin: 0;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: $body-font;
   font-size: $font-size;
   line-height: $font-size;
 }
@@ -28,9 +28,21 @@ h3,
 h4,
 h5,
 h6 {
-  color: $gray !important;
-  font-family: 'Roboto Mono', monospace !important;
-  font-weight: 900 !important;
+  font-family: $title-font;
+}
+
+a,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  &::selection {
+    color: $red;
+  }
 }
 
 .container {
@@ -41,7 +53,7 @@ h6 {
     "nav"
     "page"
     "footer";
-  padding: 0 15px;
+  padding: 0 $font-size;
   min-height: 100%;
 
   .page {
@@ -67,13 +79,13 @@ h6 {
 @media (min-width: 992px) {
 
   .container {
-    grid-template-columns: $container-padding-column-sm 1fr 1fr 1fr $container-padding-column-sm;
+    grid-template-columns: 20% 1fr 1fr 1fr 20%;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
       ". nav nav nav ."
       ". page page page ."
       ". footer footer footer .";
-    grid-gap: 10px;
+    grid-gap: $font-size / 2;
     padding: 0;
 
     .page {}
@@ -85,7 +97,7 @@ h6 {
 @media (min-width: 1200px) {
 
   .container {
-    grid-template-columns: $container-padding-column-lg 1fr 1fr 1fr $container-padding-column-lg;
+    grid-template-columns: 23% 1fr 1fr 1fr 23%;
 
     .page {}
   }

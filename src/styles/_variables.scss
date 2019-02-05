@@ -2,29 +2,16 @@
 // Colors
 //
 $gray: #201f1f;
+$red: #f92300;
 
 //
 // Font
 //
 $font-size: 14px;
-
-//
-// Margins and Padding
-//
-$main-margin: 30px;
-$fine-margin: 15px;
-
-$container-padding-sm: 0 5%;
-$container-padding-md: 0 10%;
-
-$container-padding-column-sm: 10%;
-$container-padding-column-lg: 20%;
-
-$page-padding-bottom-sm: 200px; // Footer height
-$page-padding-bottom-md: 80px;
-
-$main-padding: 30px;
-$fine-padding: 15px;
+$title-font: 'Roboto Mono',
+monospace !important;
+$body-font: 'Roboto',
+sans-serif !important;
 
 //
 // Footer (width = 100% - container side padding * 2)
