@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-undef
 module.exports = {
   siteMetadata: {
-    title: 'Kalyn Beach - Portfolio',
+    title: 'Kalyn Beach',
     description: '',
     author: '@kalynbeach',
   },
@@ -27,7 +27,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/favicon-32x32.png', // This path is relative to the root of the site.
       },
     },
     {
