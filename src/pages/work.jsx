@@ -5,7 +5,7 @@ import SEO from "../components/seo";
 const WorkPage = () => (
   <Layout>
     <SEO title="Work" />
-    <h1>Work</h1>
+    <h2>Work</h2>
   </Layout>
 );
 
