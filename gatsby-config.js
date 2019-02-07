@@ -12,6 +12,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
+        // eslint-disable-next-line no-undef
         path: `${__dirname}/src/images`,
       },
     },
