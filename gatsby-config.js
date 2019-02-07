@@ -24,8 +24,8 @@ module.exports = {
         name: 'kalyn-beach-portfolio',
         short_name: 'portfolio',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#FFFFFF',
+        theme_color: '#F92300',
         display: 'minimal-ui',
         icon: 'src/images/favicon-32x32.png', // This path is relative to the root of the site.
       },
