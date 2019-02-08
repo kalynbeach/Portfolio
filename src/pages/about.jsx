@@ -25,6 +25,9 @@ const AboutPage = () => (
         <h4>Frameworks</h4>
         <ul>
           <li>React</li>
+          <li>Redux</li>
+          <li>Flask</li>
+          <li>Django</li>
         </ul>
       </div>
       <div>
