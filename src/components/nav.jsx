@@ -3,6 +3,11 @@ import React from "react";
 import styles from "../styles/nav.module.scss";
 
 const Nav = () => {
+  const navLinkActiveStyles = {
+    textDecoration: "underline",
+    textDecorationColor: "#f92300"
+  };
+
   return (
     <div className={styles.nav}>
       <div className={styles.title}>
@@ -13,13 +18,19 @@ const Nav = () => {
       <div className={styles.links}>
         <ul>
           <li>
-            <Link to="/about/">About</Link>
+            <Link to="/about/" activeStyle={navLinkActiveStyles}>
+              About
+            </Link>
           </li>
           <li>
-            <Link to="/work/">Work</Link>
+            <Link to="/work/" activeStyle={navLinkActiveStyles}>
+              Work
+            </Link>
           </li>
           <li>
-            <Link to="/contact/">Contact</Link>
+            <Link to="/contact/" activeStyle={navLinkActiveStyles}>
+              Contact
+            </Link>
           </li>
         </ul>
       </div>

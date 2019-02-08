@@ -32,6 +32,11 @@
 
   a {
     color: $gray;
+
+    &:hover {
+      color: $red;
+      text-decoration: none;
+    }
   }
 }
 
