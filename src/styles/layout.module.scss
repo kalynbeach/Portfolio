@@ -33,6 +33,12 @@ h6 {
 
 a,
 p,
+span {
+  line-height: 2 * $font-size;
+}
+
+a,
+p,
 span,
 h1,
 h2,

@@ -1,0 +1,26 @@
+.skillsTable {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  div {
+    flex: 0 0 30%;
+  }
+
+  ul {
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+  .skillsTable {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {}
