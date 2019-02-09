@@ -1,8 +1,5 @@
 // eslint-disable-next-line no-undef
-require("dotenv").config({
-  // eslint-disable-next-line no-undef
-  path: `.env.${process.env.NODE_ENV}`
-});
+require("dotenv").config();
 
 // eslint-disable-next-line no-undef
 module.exports = {
