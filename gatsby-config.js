@@ -14,7 +14,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // eslint-disable-next-line no-undef
-        trackingId: `${process.env.PORTFOLIO_GA_ID}`
+        trackingId: `${process.env.PORTFOLIO_GA_ID}`,
+        head: true
       }
     },
     "gatsby-plugin-react-helmet",
